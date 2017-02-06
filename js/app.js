@@ -58127,7 +58127,7 @@ app.controller('CommonCtrl', ['$scope', '$state', '$timeout', '$anchorScroll', '
     $state.go(state);
     $timeout(function() {
       window.location.reload();
-    }, 100);
+    }, 500);
   };
 }]);
 
