@@ -57764,10 +57764,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
         .state('about', {
             url: "/about",
             templateUrl: "views/about.html",
-            controller: "CommonCtrl",
-            onEnter: function(){
-               console.log("hiiiiiiiiiiii");
-            }
+            controller: "CommonCtrl"
         })
         .state('cv', {
             url: "/cv",
