@@ -57948,7 +57948,7 @@ $(document).ready(function () {
 			var noTouch = typeof (cur.attr("data-no-touch")) != "undefined";
 
 			if (!mobileCheck() && ((!touchCheck() && !onlyTouch) || (touchCheck() && (!noTouch || onlyTouch)))) {
-				var keyframes = cur.data("parallax-keyframes")
+				var keyframes = cur.data("parallax-keyframes");
 				if (keyframes != null) {
 					for (var i = 0; i < keyframes.length; i++) {
 						cur.attr("data-" + keyframes[i], null);
@@ -58080,14 +58080,13 @@ $(document).ready(function () {
 			canvas.attr("width", w);
 			canvas.attr("height", h);
 			canvas.
-				appendTo(cur).
+				appendTo(cur).				
 				css({
 					position: "absolute",
 					top: 0,
 					left: 0,
 					transform: "translate3d(0,0,0)"
-				})
-				;
+				});
 			canvas.css({
 				width: Math.round(w / dpi),
 				height: Math.round(h / dpi)
@@ -58123,11 +58122,16 @@ app.controller('CommonCtrl', ['$scope', '$state', '$timeout', '$anchorScroll', '
     }, 1000);
   };
 
-  $scope.reload = function(state) {
-    $state.go(state);
-    $timeout(function() {
-      window.location.reload();
-    }, 500);
+  $scope.reload = function(el) {
+    // $timeout(function() {
+    //   window.location.reload();
+    // }, 100);
+    // $state.go('about');
+    
+    $state.go(el);
+    setTimeout(function () {
+        location.reload()
+    }, 100);
   };
 }]);
 
