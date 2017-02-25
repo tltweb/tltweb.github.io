@@ -38,7 +38,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" ng-click="route('home')"><img src='./img/tlt-header.png' /></a>
+			<a class="navbar-brand" ng-click="route('home')" onclick="window.location.reload()"><img src='./img/tlt-header.png' /></a>
 		</div>
 		<div class="collapse navbar-collapse" uib-collapse="!isNavCollapsed">
 			<ul class="nav navbar-nav" ng-click="isNavCollapsed = false">
@@ -59,8 +59,7 @@
 	</nav>
 
   <div>
-    <a class='chev-up' ng-click="scrollTo('home')"><i class='fa fa-chevron-circle-up fa-2x'></i></a>
-    <a class='chev-down' ng-click="scrollTo('tlt')"><i class='fa fa-chevron-circle-down fa-2x'></i></a>
+    <a class='chev-up' ng-click="scrollTo('tlt')"><i class='fa fa-chevron-circle-up fa-2x'></i></a>
   </div>
 
   <div id="tlt" style="height: 50px"></div>
@@ -69,6 +68,6 @@
     <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
   </div>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.min.js"></script>
 </body>
 </html>
