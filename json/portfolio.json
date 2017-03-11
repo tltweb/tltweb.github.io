@@ -90,5 +90,14 @@
     "screenshots": [
       {"url": "./img/folio/portfolio-hpage-vivin.jpg"}
     ]
+  }, {
+    "id": 10,
+    "title": "Best Wishes",
+    "type": "Design | Development",
+    "thumbnail": "./img/folio/best-wishes.jpg",
+    "url": "http://wishes.thelittletechie.com",
+    "screenshots": [
+      {"url": "./img/folio/best-wishes.jpg"}
+    ]
   }
 ]
