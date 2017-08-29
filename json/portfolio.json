@@ -1,5 +1,14 @@
 [
   {
+    "id": 0,
+    "title": "Mobile Apps",
+    "type": "Design | Development",
+    "thumbnail": "./img/folio/mobile-apps.jpg",
+    "url": "#!/apps",
+    "screenshots": [
+      {"url": "./img/folio/mobile-apps.jpg"}
+    ]
+  }, {
     "id": 1,
     "title": "PoolCircle (Responsive)",
     "type": "Design | Development",

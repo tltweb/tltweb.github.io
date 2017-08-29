@@ -32,7 +32,7 @@
 
           <div class="row">
             <p ng-show="folio.length == 0">No portfolio added yet!</p>
-            <a ng-repeat="folio in folios | filter: search | orderBy:sortBy:sortReverse" ng-click="$ctrl.open('lg'); folioView(folio.id)">
+            <a ng-repeat="folio in folios | filter: search | orderBy:sortBy:sortReverse" ng-click="folioView(folio.id)">
               <div class="col-sm-6 col-md-4 animated zoomIn">
                 <div class="thumbnail">
                   <div class="thumbnail-container">
