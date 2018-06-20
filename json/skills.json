@@ -21,55 +21,63 @@
     "color": "danger"
   }, {
     "name": "Angular 2",
-    "value": 40,
+    "value": 80,
     "color": "primary"
+  }, {
+    "name": "Angular 5",
+    "value": 80,
+    "color": "success"
   }, {
     "name": "Ionic 1",
     "value": 95,
-    "color": "success"
+    "color": "info"
   }, {
     "name": "Ionic 2",
-    "value": 40,
-    "color": "info"
+    "value": 80,
+    "color": "warning"
+  }, {
+    "name": "Ionic 3",
+    "value": 80,
+    "color": "danger"
   }, {
     "name": "Cordova",
     "value": 60,
-    "color": "warning"
+    "color": "primary"
   }, {
     "name": "SASS",
     "value": 95,
-    "color": "danger"
+    "color": "success"
   }, {
     "name": "Mongo DB",
     "value": 70,
-    "color": "primary"
+    "color": "info"
   }, {
     "name": "MEAN Stack",
     "value": 60,
-    "color": "success"
+    "color": "warning"
   }, {
     "name": "jQuery",
     "value": 80,
-    "color": "info"
+    "color": "danger"
   }, {
     "name": "Gulp",
     "value": 80,
-    "color": "warning"
+    "color": "primary"
   }, {
     "name": "Jade",
     "value": 50,
-    "color": "danger"
+    "color": "success"
   }, {
     "name": "Git",
     "value": 95,
-    "color": "primary"
+    "color": "info"
   }, {
     "name": "Ember JS",
     "value": 40,
-    "color": "success"
+    "color": "warning"
   }, {
     "name": "Jiira",
     "value": 85,
-    "color": "info"
+    "color": "danger"
   }
 ]
