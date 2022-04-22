@@ -1,4 +1,4 @@
-export const CURRENCY = {
+export const test = {
   default: 'INR',
   inr: {
     code: 'INR',
