@@ -1,0 +1,27 @@
+{
+	"CURRENCY": {
+		"default": "INR",
+		"inr": {
+			"code": "INR",
+			"symbol": "₹"
+		}
+	},
+	"ColorCms": {
+
+		"primary": "#3B305F"
+
+	},
+	"API": {
+		"blogger": {
+			"url": "https://www.googleapis.com/blogger/v3/blogs/696899150039066728",
+			"key": "AIzaSyARHu6kboY0jJJePSdMuwssOyoYIc_v8I8"
+		},
+		"wp": {
+			"url": "https://public-api.wordpress.com/wp/v2/sites/thelittletechie.wordpress.com"
+		},
+		"tumblr": {
+			"url": "https://api.tumblr.com/v2/blog/vivinantony.tumblr.com",
+			"key": "Lo7SAS7QTtsvgdlE9mKMTkr6bpGEr2nXmMrW3Zy4zEAu6Whqtz"
+		}
+	}
+}
