@@ -1,6 +1,6 @@
 {
 	"CURRENCY": {
-		"default": "INR",
+		"default": "default-INR",
 		"inr": {
 			"code": "INR",
 			"symbol": "₹"
