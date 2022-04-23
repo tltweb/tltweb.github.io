@@ -5,5 +5,19 @@
       "code": "INR",
       "symbol": "₹"
     }
+  },
+  "VARA": {
+    "default": "'$rest'",
+    "inr": {
+      "code": "INR",
+      "symbol": "₹"
+    }
+  },
+  "'$PROP'": {
+    "default": "'$rest'",
+    "inr": {
+      "code": "INR",
+      "symbol": "₹"
+    }
   }
 }
